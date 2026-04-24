@@ -58,7 +58,7 @@ const auth = getAuth(app);
 const db = getFirestore(app);
 
 const appId =
-  typeof __app_id !== "undefined" && __app_id ? __app_id : "w9001-holiday";
+  typeof __app_id !== "undefined" && __app_id ? __app_id : "gaosiang-paiqiu";
 
 // --- Constants ---
 const YEAR = 2026;
@@ -307,7 +307,7 @@ export default function App() {
       <header className="bg-white shadow-sm border-b border-slate-200 px-4 py-3 flex items-center justify-between sticky top-0 z-50">
         <div className="flex items-center gap-2">
           <Car className="text-blue-600 w-7 h-7" />
-          <h1 className="text-xl font-bold text-slate-800">排休系統</h1>
+          <h1 className="text-xl font-bold text-slate-800">高祥排休系統</h1>
         </div>
         <div className="flex gap-2">
           {isAdmin ? (
